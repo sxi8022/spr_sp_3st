@@ -10,7 +10,7 @@ import java.io.IOException;
 
 // LoggingFilter 이름으로 로깅이 찍힘 
 @Slf4j(topic = "LoggingFilter")
-@Component
+//@Component
 @Order(1) //order filter 순서 지정
 public class LoggingFilter implements Filter {
     @Override
